@@ -1,0 +1,10 @@
+#!/bin/bash
+while [ TRUE ]; do
+  sleep 10
+  grep  '.' timePassBy.txt | less
+done
+ echo "we done"
+
+
+
+
