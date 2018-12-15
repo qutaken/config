@@ -119,7 +119,8 @@ fi
 
 
 
-#2018.4.15
+#2018.12.15
+
 alias top='clear ; top ; hi'
 umask 0002
 export HISTCONTROL=ignoredups
@@ -127,8 +128,11 @@ export HISTSIZE=2048
 alias l.='ls -d .* --color=auto'
 alias ll='ls -l --color=auto'
 alias rm='rm -i'
-alias hi='clear ; cd ~/home/user'
+alias hi='clear ; cd /home/user'
 alias cl='clear'
+alias py='python3'
+alias fb='fbterm'
+alias hey='hi ; fb ; ls'
 vi='vim'
 PS1='\A \w \$->'
 export PS1
